@@ -3,7 +3,7 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Main.java to edit this template
  */
 package pedro.git;
-
+import java.util.Scanner;
 /**
  *
  * @author pedro
@@ -15,17 +15,23 @@ public class PedroGIT {
      */
     public static void main(String[] args) {
         // TODO code application logic here
-    
-        int valor;
-       int codigo;
+    Scanner sc =new Scanner (System.in);
+       int valor;
+       int valorMayor;
+       
+       System.out.println("Introduce un numero ");
+        valor = sc.nextInt();
+        valorMayor = valor;
         
-        codigo = 2;
+        for (int i=0; i<1; i++){
+        System.out.println("Introduce un numero ");
+        valor = sc.nextInt();
+        if (valor>valorMayor) valorMayor = valor;
+        }
         
-        valor = 1;
+        System.out.println ("El mayor es " + valorMayor);
         
-        System.out.println ("valor " + valor + " y codigo " + codigo);
-        
-    
+    sc.close();
     }
     
 }
