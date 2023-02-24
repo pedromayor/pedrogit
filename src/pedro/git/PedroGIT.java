@@ -29,7 +29,7 @@ public class PedroGIT {
         if (valor>valorMenor) valorMenor = valor;
         }
         
-        System.out.println ("El menor es " + valorMenor);
+        System.out.println ("El menor no es " + valorMenor);
         
     sc.close();
     }
