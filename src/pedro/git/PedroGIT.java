@@ -17,19 +17,19 @@ public class PedroGIT {
         // TODO code application logic here
     Scanner sc =new Scanner (System.in);
        int valor;
-       int valorMayor;
+       int valorMenor;
        
        System.out.println("Introduce un numero ");
         valor = sc.nextInt();
-        valorMayor = valor;
+        valorMenor = valor;
         
-        for (int i=0; i<1; i++){
+        for (int i=0; i<10; i++){
         System.out.println("Introduce un numero ");
         valor = sc.nextInt();
-        if (valor>valorMayor) valorMayor = valor;
+        if (valor>valorMenor) valorMenor = valor;
         }
         
-        System.out.println ("El mayor es " + valorMayor);
+        System.out.println ("El menor es " + valorMenor);
         
     sc.close();
     }
