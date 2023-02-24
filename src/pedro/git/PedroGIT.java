@@ -17,10 +17,13 @@ public class PedroGIT {
         // TODO code application logic here
     
         int valor;
+       int codigo;
+        
+        codigo = 2;
         
         valor = 1;
         
-        System.out.println ("valor " + valor);
+        System.out.println ("valor " + valor + " y codigo " + codigo);
         
     
     }
