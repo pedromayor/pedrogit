@@ -14,7 +14,7 @@ public class PedroGIT {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        // TODO code application logic here
+        // TODO 
     Scanner sc =new Scanner (System.in);
        int valor;
        int valorMenor;
