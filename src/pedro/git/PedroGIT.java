@@ -16,20 +16,20 @@ public class PedroGIT {
     public static void main(String[] args) {
       //parece q todo bien
     Scanner sc =new Scanner (System.in);
-       int valor;
-       int valorMenor;
+       int nota;
+       int notaMenor;
        
        System.out.println("Introduce un numero ");
-        valor = sc.nextInt();
-        valorMenor = valor;
+        nota = sc.nextInt();
+        notaMenor = nota;
         
         for (int i=0; i<10; i++){
         System.out.println("Introduce un numero ");
-        valor = sc.nextInt();
-        if (valor>valorMenor) valorMenor = valor;
+        nota = sc.nextInt();
+        if (nota>notaMenor) notaMenor = nota;
         }
         
-        System.out.println ("El menor no es " + valorMenor);
+        System.out.println ("El menor no es " + notaMenor);
         
     sc.close();
     }
